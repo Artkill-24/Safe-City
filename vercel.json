@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_REPORTING_CONTRACT": "",
+    "NEXT_PUBLIC_TOKEN_CONTRACT": "",
+    "NEXT_PUBLIC_RPC_URL": "https://goerli-rollup.arbitrum.io/rpc",
+    "LLAMA_API_KEY": ""
+  }
+}
